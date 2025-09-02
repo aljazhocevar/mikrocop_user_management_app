@@ -1,0 +1,82 @@
+[2025-09-02 10:26:25 INF] [Info] "2025-09-02T08:26:25.6046490Z" null aljaz ALJAZ POST /api/users Params: {"UserName":"jdoe","FullName":"John Doe","Email":"jdoe@example.com","Mobile":"123456","Language":"en","Culture":"en-US","Password":"P@ssw0rd"}
+[2025-09-02 10:26:25 INF] User created "f8e037bb-801d-4f84-aa55-c5ee9f271a6c" by aljaz
+[2025-09-02 10:26:25 INF] [Info] "2025-09-02T08:26:25.8009540Z" null aljaz ALJAZ GET /api/users/f8e037bb-801d-4f84-aa55-c5ee9f271a6c Params: 
+[2025-09-02 10:26:25 INF] User retrieved "f8e037bb-801d-4f84-aa55-c5ee9f271a6c" by aljaz
+[2025-09-02 10:26:25 INF] [Info] "2025-09-02T08:26:25.8590626Z" null aljaz ALJAZ DELETE /api/users/f8e037bb-801d-4f84-aa55-c5ee9f271a6c Params: 
+[2025-09-02 10:26:25 INF] User deleted "f8e037bb-801d-4f84-aa55-c5ee9f271a6c" by aljaz
+[2025-09-02 10:28:20 INF] [Info] "2025-09-02T08:28:20.0350211Z" null aljaz ALJAZ POST /api/users Params: {"UserName":"jdoe","FullName":"John Doe","Email":"jdoe@example.com","Mobile":"123456","Language":"en","Culture":"en-US","Password":"P@ssw0rd"}
+[2025-09-02 10:28:20 INF] User created "078a498e-ea60-4fc2-be59-6e9093de688f" by aljaz
+[2025-09-02 10:28:20 INF] [Info] "2025-09-02T08:28:20.2300269Z" null aljaz ALJAZ GET /api/users/078a498e-ea60-4fc2-be59-6e9093de688f Params: 
+[2025-09-02 10:28:20 INF] User retrieved "078a498e-ea60-4fc2-be59-6e9093de688f" by aljaz
+[2025-09-02 10:28:20 INF] [Info] "2025-09-02T08:28:20.2933172Z" null aljaz ALJAZ POST /api/users Params: {"UserName":"jdoe","FullName":"John Doe","Email":"jdoe@example.com","Mobile":"123456","Language":"en","Culture":"en-US","Password":"P@ssw0rd"}
+[2025-09-02 10:28:20 INF] User created "8aac035f-a3e3-487f-8c6e-a50ae84f689b" by aljaz
+[2025-09-02 10:28:20 INF] [Info] "2025-09-02T08:28:20.3522773Z" null aljaz ALJAZ PUT /api/users/8aac035f-a3e3-487f-8c6e-a50ae84f689b Params: {"UserName":"jdoe-updated","FullName":"John Doe Updated","Email":"jdoe.updated@example.com","Mobile":"654321","Language":"en","Culture":"en-US"}
+[2025-09-02 10:28:20 INF] User updated "8aac035f-a3e3-487f-8c6e-a50ae84f689b" by aljaz
+[2025-09-02 10:28:20 INF] [Info] "2025-09-02T08:28:20.3836271Z" null aljaz ALJAZ POST /api/users Params: {"UserName":"jdoe","FullName":"John Doe","Email":"jdoe@example.com","Mobile":"123456","Language":"en","Culture":"en-US","Password":"P@ssw0rd"}
+[2025-09-02 10:28:20 INF] User created "09f227b7-f038-4e6d-a545-7e56f1c2f8f7" by aljaz
+[2025-09-02 10:28:20 INF] [Info] "2025-09-02T08:28:20.4342454Z" null aljaz ALJAZ DELETE /api/users/09f227b7-f038-4e6d-a545-7e56f1c2f8f7 Params: 
+[2025-09-02 10:28:20 INF] User deleted "09f227b7-f038-4e6d-a545-7e56f1c2f8f7" by aljaz
+[2025-09-02 10:28:20 INF] [Info] "2025-09-02T08:28:20.4724714Z" null aljaz ALJAZ GET /api/users/09f227b7-f038-4e6d-a545-7e56f1c2f8f7 Params: 
+[2025-09-02 10:28:20 WRN] Get failed: User "09f227b7-f038-4e6d-a545-7e56f1c2f8f7" not found
+[2025-09-02 10:28:20 INF] [Info] "2025-09-02T08:28:20.4869978Z" null aljaz ALJAZ POST /api/users Params: {"UserName":"jdoe","FullName":"John Doe","Email":"jdoe@example.com","Mobile":"123456","Language":"en","Culture":"en-US","Password":"P@ssw0rd"}
+[2025-09-02 10:28:20 INF] User created "4c9bfeb5-08a6-4354-a117-358dad232e48" by aljaz
+[2025-09-02 10:30:12 INF] [Info] "2025-09-02T08:30:12.8007927Z" null aljaz ALJAZ POST /api/users Params: {"UserName":"jdoe","FullName":"John Doe","Email":"jdoe@example.com","Mobile":"123456","Language":"en","Culture":"en-US","Password":"P@ssw0rd"}
+[2025-09-02 10:30:12 INF] User created "7edafdfe-4492-4170-9826-044c7d732562" by aljaz
+[2025-09-02 10:30:12 INF] [Info] "2025-09-02T08:30:12.9909927Z" null aljaz ALJAZ GET /api/users/7edafdfe-4492-4170-9826-044c7d732562 Params: 
+[2025-09-02 10:30:13 INF] User retrieved "7edafdfe-4492-4170-9826-044c7d732562" by aljaz
+[2025-09-02 10:30:13 INF] [Info] "2025-09-02T08:30:13.0576791Z" null aljaz ALJAZ POST /api/users Params: {"UserName":"jdoe","FullName":"John Doe","Email":"jdoe@example.com","Mobile":"123456","Language":"en","Culture":"en-US","Password":"P@ssw0rd"}
+[2025-09-02 10:30:13 INF] User created "110a9c7a-73c0-49eb-a946-f3c54a494a36" by aljaz
+[2025-09-02 10:30:13 INF] [Info] "2025-09-02T08:30:13.1198937Z" null aljaz ALJAZ PUT /api/users/110a9c7a-73c0-49eb-a946-f3c54a494a36 Params: {"UserName":"test User Name","FullName":"test Full Name","Email":"test@eemail.com","Mobile":"041863446","Language":"HR","Culture":"hr-HR"}
+[2025-09-02 10:30:13 INF] User updated "110a9c7a-73c0-49eb-a946-f3c54a494a36" by aljaz
+[2025-09-02 10:30:13 INF] [Info] "2025-09-02T08:30:13.1558811Z" null aljaz ALJAZ POST /api/users Params: {"UserName":"jdoe","FullName":"John Doe","Email":"jdoe@example.com","Mobile":"123456","Language":"en","Culture":"en-US","Password":"P@ssw0rd"}
+[2025-09-02 10:30:13 INF] User created "b2d998c7-76b6-4ce4-b920-f5679f3b3a4e" by aljaz
+[2025-09-02 10:30:13 INF] [Info] "2025-09-02T08:30:13.2074112Z" null aljaz ALJAZ DELETE /api/users/b2d998c7-76b6-4ce4-b920-f5679f3b3a4e Params: 
+[2025-09-02 10:30:13 INF] User deleted "b2d998c7-76b6-4ce4-b920-f5679f3b3a4e" by aljaz
+[2025-09-02 10:30:13 INF] [Info] "2025-09-02T08:30:13.2422701Z" null aljaz ALJAZ GET /api/users/b2d998c7-76b6-4ce4-b920-f5679f3b3a4e Params: 
+[2025-09-02 10:30:13 WRN] Get failed: User "b2d998c7-76b6-4ce4-b920-f5679f3b3a4e" not found
+[2025-09-02 10:30:13 INF] [Info] "2025-09-02T08:30:13.2539437Z" null aljaz ALJAZ POST /api/users Params: {"UserName":"jdoe","FullName":"John Doe","Email":"jdoe@example.com","Mobile":"123456","Language":"en","Culture":"en-US","Password":"P@ssw0rd"}
+[2025-09-02 10:30:13 INF] User created "393b7c94-72c9-4fe1-934c-318509b40448" by aljaz
+[2025-09-02 10:32:21 INF] [Info] "2025-09-02T08:32:21.8428002Z" null aljaz ALJAZ POST /api/users Params: {"UserName":"jdoe","FullName":"John Doe","Email":"jdoe@example.com","Mobile":"123456","Language":"en","Culture":"en-US","Password":"P@ssw0rd"}
+[2025-09-02 10:32:21 INF] User created "8c727a47-41be-4f84-aa79-eaa93cf990a1" by aljaz
+[2025-09-02 10:32:22 INF] [Info] "2025-09-02T08:32:22.0067784Z" null aljaz ALJAZ GET /api/users/8c727a47-41be-4f84-aa79-eaa93cf990a1 Params: 
+[2025-09-02 10:32:22 INF] User retrieved "8c727a47-41be-4f84-aa79-eaa93cf990a1" by aljaz
+[2025-09-02 10:32:22 INF] [Info] "2025-09-02T08:32:22.0614434Z" null aljaz ALJAZ POST /api/users Params: {"UserName":"jdoe","FullName":"John Doe","Email":"jdoe@example.com","Mobile":"123456","Language":"en","Culture":"en-US","Password":"P@ssw0rd"}
+[2025-09-02 10:32:22 INF] User created "cbe01508-5db2-4299-b619-4c60f9e4d78e" by aljaz
+[2025-09-02 10:32:22 INF] [Info] "2025-09-02T08:32:22.1128686Z" null aljaz ALJAZ PUT /api/users/cbe01508-5db2-4299-b619-4c60f9e4d78e Params: {"UserName":"test User Name","FullName":"test Full Name","Email":"test@eemail.com","Mobile":"041863446","Language":"HR","Culture":"hr-HR"}
+[2025-09-02 10:32:22 INF] User updated "cbe01508-5db2-4299-b619-4c60f9e4d78e" by aljaz
+[2025-09-02 10:32:22 INF] [Info] "2025-09-02T08:32:22.1418684Z" null aljaz ALJAZ POST /api/users Params: {"UserName":"jdoe","FullName":"John Doe","Email":"jdoe@example.com","Mobile":"123456","Language":"en","Culture":"en-US","Password":"P@ssw0rd"}
+[2025-09-02 10:32:22 INF] User created "2a13f78e-f6a2-4599-be12-560f7640e922" by aljaz
+[2025-09-02 10:33:19 INF] [Info] "2025-09-02T08:33:19.8351977Z" null aljaz ALJAZ POST /api/users Params: {"UserName":"jdoe","FullName":"John Doe","Email":"jdoe@example.com","Mobile":"123456","Language":"en","Culture":"en-US","Password":"P@ssw0rd"}
+[2025-09-02 10:33:19 INF] User created "80ba24bc-4afe-4708-aa41-d434bc391086" by aljaz
+[2025-09-02 10:33:20 INF] [Info] "2025-09-02T08:33:20.0123301Z" null aljaz ALJAZ GET /api/users/80ba24bc-4afe-4708-aa41-d434bc391086 Params: 
+[2025-09-02 10:33:20 INF] User retrieved "80ba24bc-4afe-4708-aa41-d434bc391086" by aljaz
+[2025-09-02 10:33:20 INF] [Info] "2025-09-02T08:33:20.0733162Z" null aljaz ALJAZ POST /api/users Params: {"UserName":"jdoe","FullName":"John Doe","Email":"jdoe@example.com","Mobile":"123456","Language":"en","Culture":"en-US","Password":"P@ssw0rd"}
+[2025-09-02 10:33:20 INF] User created "3ab88e11-de65-46f7-abeb-bb8dc4c3c008" by aljaz
+[2025-09-02 10:33:20 INF] [Info] "2025-09-02T08:33:20.1274453Z" null aljaz ALJAZ PUT /api/users/3ab88e11-de65-46f7-abeb-bb8dc4c3c008 Params: {"UserName":"test User Name","FullName":"test Full Name","Email":"test@eemail.com","Mobile":"041863446","Language":"HR","Culture":"hr-HR"}
+[2025-09-02 10:33:20 INF] User updated "3ab88e11-de65-46f7-abeb-bb8dc4c3c008" by aljaz
+[2025-09-02 10:33:20 INF] [Info] "2025-09-02T08:33:20.1569976Z" null aljaz ALJAZ POST /api/users Params: {"UserName":"jdoe","FullName":"John Doe","Email":"jdoe@example.com","Mobile":"123456","Language":"en","Culture":"en-US","Password":"P@ssw0rd"}
+[2025-09-02 10:33:20 INF] User created "4924c4a1-e687-4e9e-b2c2-295b192a8b4f" by aljaz
+[2025-09-02 11:00:39 INF] [Info] "2025-09-02T09:00:39.0704265Z" null aljaz ALJAZ POST /api/users Params: {"UserName":"Test","FullName":"Test Aljaz","Email":"aljaz@example.com","Mobile":"041863446","Language":"SI","Culture":"si-SI","Password":"P@ssw0rd"}
+[2025-09-02 11:00:39 INF] User created "d6b9a72b-aabe-4e86-a848-4a192f06e89f" by aljaz
+[2025-09-02 11:00:39 INF] [Info] "2025-09-02T09:00:39.2438392Z" null aljaz ALJAZ GET /api/users/d6b9a72b-aabe-4e86-a848-4a192f06e89f Params: 
+[2025-09-02 11:00:39 INF] User retrieved "d6b9a72b-aabe-4e86-a848-4a192f06e89f" by aljaz
+[2025-09-02 11:00:39 INF] [Info] "2025-09-02T09:00:39.3004702Z" null aljaz ALJAZ POST /api/users Params: {"UserName":"Test","FullName":"Test Aljaz","Email":"aljaz@example.com","Mobile":"041863446","Language":"SI","Culture":"si-SI","Password":"P@ssw0rd"}
+[2025-09-02 11:00:39 INF] User created "148c18b1-d209-4c9d-bae3-d2d3292dd644" by aljaz
+[2025-09-02 11:00:39 INF] [Info] "2025-09-02T09:00:39.3503596Z" null aljaz ALJAZ POST /api/users/148c18b1-d209-4c9d-bae3-d2d3292dd644/validate-password Params: {"password":"WrongPassword123"}
+[2025-09-02 11:00:39 INF] Password validation for User "148c18b1-d209-4c9d-bae3-d2d3292dd644" by aljaz: false
+[2025-09-02 11:00:39 INF] [Info] "2025-09-02T09:00:39.4164294Z" null aljaz ALJAZ POST /api/users Params: {"UserName":"Test","FullName":"Test Aljaz","Email":"aljaz@example.com","Mobile":"041863446","Language":"SI","Culture":"si-SI","Password":"P@ssw0rd"}
+[2025-09-02 11:00:39 INF] User created "390007d6-86e6-45f7-a54b-545554dda7cf" by aljaz
+[2025-09-02 11:00:39 INF] [Info] "2025-09-02T09:00:39.4660380Z" null aljaz ALJAZ PUT /api/users/390007d6-86e6-45f7-a54b-545554dda7cf Params: {"UserName":"test User Name","FullName":"test Full Name","Email":"test@eemail.com","Mobile":"041863446","Language":"HR","Culture":"hr-HR"}
+[2025-09-02 11:00:39 INF] User updated "390007d6-86e6-45f7-a54b-545554dda7cf" by aljaz
+[2025-09-02 11:00:39 INF] [Info] "2025-09-02T09:00:39.4868787Z" null aljaz ALJAZ POST /api/users Params: {"UserName":"Test","FullName":"Test Aljaz","Email":"aljaz@example.com","Mobile":"041863446","Language":"SI","Culture":"si-SI","Password":"P@ssw0rd"}
+[2025-09-02 11:00:39 INF] User created "99590e63-bf60-4c29-bb17-fa6c89da8e4f" by aljaz
+[2025-09-02 11:00:39 INF] [Info] "2025-09-02T09:00:39.5355629Z" null aljaz ALJAZ POST /api/users/99590e63-bf60-4c29-bb17-fa6c89da8e4f/validate-password Params: {"password":"P@ssw0rd"}
+[2025-09-02 11:00:39 INF] Password validation for User "99590e63-bf60-4c29-bb17-fa6c89da8e4f" by aljaz: true
+[2025-09-02 11:00:39 INF] [Info] "2025-09-02T09:00:39.5838078Z" null aljaz ALJAZ POST /api/users Params: {"UserName":"Test","FullName":"Test Aljaz","Email":"aljaz@example.com","Mobile":"041863446","Language":"SI","Culture":"si-SI","Password":"P@ssw0rd"}
+[2025-09-02 11:00:39 INF] User created "56bd7473-5e75-4fe3-8129-540e11e1fc02" by aljaz
+[2025-09-02 11:00:39 INF] [Info] "2025-09-02T09:00:39.6324875Z" null aljaz ALJAZ DELETE /api/users/56bd7473-5e75-4fe3-8129-540e11e1fc02 Params: 
+[2025-09-02 11:00:39 INF] User deleted "56bd7473-5e75-4fe3-8129-540e11e1fc02" by aljaz
+[2025-09-02 11:00:39 INF] [Info] "2025-09-02T09:00:39.6689881Z" null aljaz ALJAZ GET /api/users/56bd7473-5e75-4fe3-8129-540e11e1fc02 Params: 
+[2025-09-02 11:00:39 WRN] Get failed: User "56bd7473-5e75-4fe3-8129-540e11e1fc02" not found
+[2025-09-02 11:00:39 INF] [Info] "2025-09-02T09:00:39.6809696Z" null aljaz ALJAZ POST /api/users Params: {"UserName":"Test","FullName":"Test Aljaz","Email":"aljaz@example.com","Mobile":"041863446","Language":"SI","Culture":"si-SI","Password":"P@ssw0rd"}
+[2025-09-02 11:00:39 INF] User created "5743cc89-4d94-40c1-82da-d53e711fd20d" by aljaz
