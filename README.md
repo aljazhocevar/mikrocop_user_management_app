@@ -53,8 +53,7 @@ ASP.NET Core Web API for managing users and their passwords. Supports create, re
 - Retrieve user data  
 - Validate user password  
 - API key authentication  
-- Request logging to daily log files  
-- Swagger / OpenAPI documentation
+- Request logging to daily log files 
 
 ---
 
@@ -65,5 +64,3 @@ ASP.NET Core Web API for managing users and their passwords. Supports create, re
 - MSSQL Server 
 - PowerShell or CMD for commands
 
----
->>>>>>> f1ac6a697f92ee8e89fa574399b62cd469700bfb
