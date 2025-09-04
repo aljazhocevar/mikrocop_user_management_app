@@ -24,6 +24,31 @@ Server will start on localhost (http://localhost:5000/)
 dotnet test
 ```
 
+## Features
+
+- Add new user  
+- Update existing user  
+- Delete user  
+- Retrieve user data  
+- Validate user password  
+- API key authentication  
+- Request logging to daily log files 
+
+---
+
+# Users API
+
+| Method   | Endpoint                          | Description                                                          | Request Body (JSON)                                                                 |
+|----------|-----------------------------------|----------------------------------------------------------------------|-------------------------------------------------------------------------------------|
+| **POST** | `/api/users`                      | Creates a new user                                                   | `{ "userName": "testuser", "fullName": "Test User", "email": "test@example.com", "mobile": "+38640123456", "language": "sl", "culture": "sl-SI", "password": "mySecret123" }` |
+| **GET**  | `/api/users/{id}`                 | Returns details of a single user by `id`                             | –                                                                                   |
+| **PUT**  | `/api/users/{id}`                 | Updates user details (only provided fields will be updated)          | `{ "userName": "newuser", "email": "newmail@example.com", "password": "newSecret123" }` |
+| **DELETE** | `/api/users/{id}`               | Deletes a user by `id`                                               | –                                                                                   |
+| **POST** | `/api/users/{id}/validate-password` | Validates a provided password against the user’s stored password hash | `{ "password": "mySecret123" }`                                                     |
+
+
+---
+
 ## Usage and examples
 
 You can use this program with executing curl commands or using Postman software. I have also prepared python scripts which are located in python_requests_examples. 
@@ -79,17 +104,6 @@ ASP.NET Core Web API for managing users and their passwords. Supports create, re
 
 ---
 
-## Features
-
-- Add new user  
-- Update existing user  
-- Delete user  
-- Retrieve user data  
-- Validate user password  
-- API key authentication  
-- Request logging to daily log files 
-
----
 
 ## Requirements
 
