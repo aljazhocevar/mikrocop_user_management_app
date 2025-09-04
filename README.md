@@ -38,16 +38,13 @@ dotnet test
 
 # Users API
 
-# 👤 Users API
-
-| Method   | Endpoint                          | Description                                                          | Request Body (JSON)                                                                 | Possible Status Codes                  |
-|----------|-----------------------------------|----------------------------------------------------------------------|-------------------------------------------------------------------------------------|---------------------------------------|
-| **POST** | `/api/users`                      | Creates a new user                                                   | `{ "userName": "testuser", "fullName": "Test User", "email": "test@example.com", "mobile": "+38640123456", "language": "sl", "culture": "sl-SI", "password": "mySecret123" }` | 201 Created, 400 Bad Request, 401 Unauthorized, 500 Internal Server Error |
-| **GET**  | `/api/users`                      | Returns a list of all users                                          | –                                                                                   | 200 OK, 401 Unauthorized, 500 Internal Server Error |
-| **GET**  | `/api/users/{id}`                 | Returns details of a single user by `id`                             | –                                                                                   | 200 OK, 404 Not Found, 401 Unauthorized, 500 Internal Server Error |
-| **PUT**  | `/api/users/{id}`                 | Updates user details (only provided fields will be updated)          | `{ "userName": "newuser", "email": "newmail@example.com", "password": "newSecret123" }` | 204 No Content, 404 Not Found, 400 Bad Request, 401 Unauthorized, 500 Internal Server Error |
-| **DELETE** | `/api/users/{id}`               | Deletes a user by `id`                                               | –                                                                                   | 204 No Content, 404 Not Found, 401 Unauthorized, 500 Internal Server Error |
-| **POST** | `/api/users/{id}/validate-password` | Validates a provided password against the user’s stored password hash | `{ "password": "mySecret123" }`                                                     | 200 OK, 400 Bad Request, 404 Not Found, 401 Unauthorized, 500 Internal Server Error |
+| Method   | Endpoint                          | Description                                                          | Request Body (JSON)                                                                 | Response (example)                                               |
+|----------|-----------------------------------|----------------------------------------------------------------------|-------------------------------------------------------------------------------------|-----------------------------------------------------------------|
+| **POST** | `/api/users`                      | Creates a new user                                                   | `{ "userName": "testuser", "fullName": "Test User", "email": "test@example.com", "mobile": "+38640123456", "language": "sl", "culture": "sl-SI", "password": "mySecret123" }` | `{ "id": "uuid", "userName": "...", "fullName": "...", "email": "...", "mobile": "...", "language": "...", "culture": "..." }` |
+| **GET**  | `/api/users/{id}`                 | Returns details of a single user by `id`                             | –                                                                                   | `{ "id": "uuid", "userName": "...", "fullName": "...", "email": "...", "mobile": "...", "language": "...", "culture": "..." }` |
+| **PUT**  | `/api/users/{id}`                 | Updates user details (only provided fields will be updated)          | `{ "userName": "newuser", "email": "newmail@example.com", "password": "newSecret123" }` | `No Content` (empty response)                                    |
+| **DELETE** | `/api/users/{id}`               | Deletes a user by `id`                                               | –                                                                                   | `No Content` (empty response)                                    |
+| **POST** | `/api/users/{id}/validate-password` | Validates a provided password against the user’s stored password hash | `{ "password": "mySecret123" }`                                                     | `{ "valid": true }` or `{ "valid": false }`                     |
 
 
 ---
