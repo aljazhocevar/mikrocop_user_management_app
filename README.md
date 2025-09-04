@@ -1,6 +1,8 @@
 # UserRepositoryService
 
 This archive contains the full ASP.NET Core Web API project (C#) configured to use **MSSQL** by default.
+ASP.NET Core Web API for managing users and their passwords. Supports create, read, update, delete operations, password validation, and API key authentication. Logs every request to daily log files.
+
 
 ## Quick app start
 1. Update `src/UserRepositoryService/appsettings.json` connection string with your SQL Server credentials.
@@ -99,8 +101,6 @@ You will get response printed in terminal for both methods.
 - API key is required in header `X-Api-Key` for every request.
 - Logs are written into `logs/log-<date>.txt` using Serilog rolling files.
 =======
-**Description:**  
-ASP.NET Core Web API for managing users and their passwords. Supports create, read, update, delete operations, password validation, and API key authentication. Logs every request to daily log files.
 
 ---
 
